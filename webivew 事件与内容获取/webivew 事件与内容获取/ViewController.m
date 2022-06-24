@@ -47,7 +47,7 @@
     }
     else
     {
-       NSLog(@"发生其他行为");
+       NSLog(@"发生其他行 为");
     }
     
     return YES;
@@ -61,7 +61,7 @@
     NSString *currentURL = [webView stringByEvaluatingJavaScriptFromString:@"document.location.href"];
     NSLog(@"当前url地址：%@",currentURL);
     NSString *title=[webView stringByEvaluatingJavaScriptFromString:@"document.title"];
-    NSLog(@"当前页面标题：%@",title);
+    NSLog(@"当前页面标题：%@",title );
     //修改界面元素的值
    // NSString *js_result = [webView stringByEvaluatingJavaScriptFromString:@"document.getElementsByName('q')[0].value='朱祁林';"];
     //提交表单
