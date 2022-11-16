@@ -47,7 +47,7 @@
     }
     else
     {
-       NSLog(@"发生其他行 为");
+       NSLog(@"发生其他行 为1");
     }
     
     return YES;
